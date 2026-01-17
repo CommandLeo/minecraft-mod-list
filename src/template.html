@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CommandLeo Mod List</title>
+    <meta name="description" content="A curated Minecraft mod list" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CommandLeo Mod List" />
+    <meta property="og:description" content="A curated Minecraft mod list" />
+    <meta property="og:url" content="https://commandleo.github.io/minecraft-mod-list/" />
+    <meta property="og:site_name" content="CommandLeo Mod List" />
+    <meta name="twitter:title" content="CommandLeo Mod List" />
+    <meta name="twitter:description" content="A curated Minecraft mod list by CommandLeo" />
+
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        :root {
+        --bg-light: #ffffff;
+        --fg-light: #24292e;
+        --muted-light: #57606a;
+        --border-light: #d0d7de;
+        --link-light: #0969da;
+        --table-alt-light: #f6f8fa;
+
+        --bg-dark: #0d1117;
+        --fg-dark: #c9d1d9;
+        --muted-dark: #8b949e;
+        --border-dark: #30363d;
+        --link-dark: #58a6ff;
+        --table-alt-dark: #161b22;
+
+        --bg: var(--bg-light);
+        --fg: var(--fg-light);
+        --muted: var(--muted-light);
+        --border: var(--border-light);
+        --link: var(--link-light);
+        --table-alt: var(--table-alt-light);
+        }
+
+        html[data-theme='dark'] {
+        --bg: var(--bg-dark);
+        --fg: var(--fg-dark);
+        --muted: var(--muted-dark);
+        --border: var(--border-dark);
+        --link: var(--link-dark);
+        --table-alt: var(--table-alt-dark);
+        }
+
+        body {
+        margin: 0;
+        padding: 24px;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        line-height: 1.6;
+        width: 95%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        }
+
+        header .title {
+        font-weight: 600;
+        color: var(--muted);
+        }
+
+        button.theme-toggle {
+        border: 1px solid var(--border);
+        background: transparent;
+        color: var(--fg);
+        border-radius: 6px;
+        padding: 6px 10px;
+        cursor: pointer;
+        font-size: 14px;
+        }
+
+        h1,
+        h2 {
+        border-bottom: 1px solid var(--border);
+        padding-bottom: 0.3em;
+        }
+
+        a {
+        color: var(--link);
+        text-decoration: none;
+        }
+
+        a:hover {
+        text-decoration: underline;
+        }
+
+        .table-wrap {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 8px 0;
+        padding-bottom: 6px;
+        }
+
+        table {
+        min-width: 100%;
+        border-collapse: collapse;
+        }
+
+        th,
+        td {
+        border: 1px solid var(--border);
+        padding: 6px 13px;
+        text-align: left;
+        }
+
+        th:nth-child(1),
+        td:nth-child(1) {
+        width: 32px;
+        text-align: center;
+        }
+
+        tr:nth-child(2n) {
+        background-color: var(--table-alt);
+        }
+
+        img {
+        vertical-align: middle;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 12px;
+            }
+
+            th,
+            td {
+                padding: 6px 8px;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="title">CommandLeo Mod List</div>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">Toggle Theme</button>
+    </header>
+    <main>{{content}}</main>
+    <script>
+      (function() {
+        const key = 'site-theme';
+        const root = document.documentElement;
+        const saved = localStorage.getItem(key);
+        if (saved) root.setAttribute('data-theme', saved);
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+          const current = root.getAttribute('data-theme') || 'dark';
+          const next = current === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          localStorage.setItem(key, next);
+        });
+      })();
+    </script>
+  </body>
+</html>

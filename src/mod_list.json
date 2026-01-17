@@ -1,0 +1,592 @@
+{
+	"author": "CommandLeo",
+	"version": "1.21.1",
+	"sections": [
+		{
+			"name": "Libraries",
+			"mod_data": [
+				{
+					"name": "Fabric API",
+					"provider": "Modrinth",
+					"slug": "fabric-api",
+					"description": "Library required by a lot of mods"
+				},
+				{
+					"name": "Fabric Language Kotlin",
+					"provider": "Modrinth",
+					"slug": "fabric-language-kotlin",
+					"description": "Library required by Zoomify"
+				},
+				{
+					"name": "MaLiLib",
+					"provider": "Modrinth",
+					"slug": "malilib",
+					"description": "Library required by Masa's mods"
+				},
+				{
+					"name": "MagicLib",
+					"provider": "Modrinth",
+					"slug": "magiclib",
+					"description": "Library required by MasaGadget"
+				},
+				{
+					"name": "oωo",
+					"provider": "Modrinth",
+					"slug": "owo-lib",
+					"description": "Library required by Isometric Renders"
+				},
+				{
+					"name": "LibJF",
+					"provider": "Modrinth",
+					"slug": "libjf",
+					"description": "Library required by Respackopts"
+				},
+				{
+					"name": "CICADA",
+					"provider": "Modrinth",
+					"slug": "cicada",
+					"description": "Library required by Recursive Resources"
+				},
+				{
+					"name": "Fzzy Config",
+					"provider": "Modrinth",
+					"slug": "fzzy-config",
+					"description": "Configuration library required by Particle Core"
+				},
+				{
+					"name": "Cloth Config API",
+					"provider": "Modrinth",
+					"slug": "cloth-config",
+					"description": "Configuration library required by some mods"
+				},
+				{
+					"name": "YetAnotherConfigLib",
+					"provider": "Modrinth",
+					"slug": "yacl",
+					"description": "Configuration library required by Zoomify"
+				}
+			]
+		},
+		{
+			"name": "Carpet",
+			"mod_data": [
+				{
+					"name": "Carpet",
+					"provider": "Modrinth",
+					"slug": "carpet",
+					"description": "The most important mod for technical Minecraft; it comes with tons of useful features and commands"
+				},
+				{
+					"name": "Carpet Extra",
+					"provider": "Modrinth",
+					"slug": "carpet-extra",
+					"description": "Extra features for Carpet"
+				},
+				{
+					"name": "Carpet TIS Addition",
+					"provider": "Modrinth",
+					"slug": "carpet-tis-addition",
+					"description": "Very useful Carpet extension with lots of new rules and tools, in particular for doing stuff in creative mode"
+				},
+				{
+					"name": "Essential Addons",
+					"provider": "Modrinth",
+					"slug": "essentialaddons",
+					"description": "A Carpet extension that adds some handy commands and rules"
+				},
+				{
+					"name": "JoaCarpet",
+					"provider": "Modrinth",
+					"slug": "joacarpet",
+					"description": "A small Carpet extension with a few useful features for redstone and storage tech"
+				},
+				{
+					"name": "Doormat",
+					"provider": "Modrinth",
+					"slug": "doormat",
+					"description": "A Carpet extension with fun features"
+				}
+			]
+		},
+		{
+			"name": "Optimization",
+			"mod_data": [
+				{
+					"name": "Lithium",
+					"provider": "Modrinth",
+					"slug": "lithium",
+					"description": "Improves **server-side** performance without affecting vanilla game logic"
+				},
+				{
+					"name": "Sodium",
+					"provider": "Modrinth",
+					"slug": "sodium",
+					"description": "The fastest rendering optimization mod for Minecraft"
+				},
+				{
+					"name": "Enhanced Block Entities",
+					"provider": "Modrinth",
+					"slug": "ebe",
+					"description": "Reduces block entity FPS lag and improves their visuals"
+				},
+				{
+					"name": "EntityCulling",
+					"provider": "Modrinth",
+					"slug": "entityculling",
+					"description": "Hides entities and block entities that are not visible"
+				},
+				{
+					"name": "More Culling",
+					"provider": "Modrinth",
+					"slug": "moreculling",
+					"description": "Changes how multiple types of culling are handled to improve performance"
+				},
+				{
+					"name": "Particle Core",
+					"provider": "Modrinth",
+					"slug": "particle-core",
+					"description": "Optimises particle rendering"
+				},
+				{
+					"name": "ModernFix",
+					"provider": "Modrinth",
+					"slug": "modernfix",
+					"description": "Improves performance and reduces memory usage"
+				},
+				{
+					"name": "ImmediatelyFast",
+					"provider": "Modrinth",
+					"slug": "immediatelyfast",
+					"description": "Speeds up the immediate mode rendering performance of the client"
+				},
+				{
+					"name": "FerriteCore",
+					"provider": "Modrinth",
+					"slug": "ferrite-core",
+					"description": "Memory usage optimizations"
+				},
+				{
+					"name": "Krypton",
+					"provider": "Modrinth",
+					"slug": "krypton",
+					"description": "Optimises the Minecraft networking stack"
+				},
+				{
+					"name": "ThreadTweak",
+					"provider": "Modrinth",
+					"slug": "threadtweak",
+					"description": "Improves and tweaks the Minecraft thread scheduling"
+				}
+			]
+		},
+		{
+			"name": "Sodium Addons",
+			"mod_data": [
+				{
+					"name": "Sodium Extra",
+					"provider": "Modrinth",
+					"slug": "sodium-extra",
+					"description": "Ports most of Optifine's options over to Sodium"
+				},
+				{
+					"name": "Reese's Sodium Options",
+					"provider": "Modrinth",
+					"slug": "reeses-sodium-options",
+					"description": "Alternative options menu for Sodium"
+				}
+			]
+		},
+		{
+			"name": "Aesthetics",
+			"mod_data": [
+				{
+					"name": "Iris Shaders",
+					"provider": "Modrinth",
+					"slug": "iris",
+					"description": "The best shaders mod"
+				},
+				{
+					"name": "Continuity",
+					"provider": "Modrinth",
+					"slug": "continuity",
+					"description": "Connected textures and emissive textures"
+				},
+				{
+					"name": "LambDynamicLights",
+					"provider": "Modrinth",
+					"slug": "lambdynamiclights",
+					"description": "Dynamic lights"
+				},
+				{
+					"name": "Nuit",
+					"provider": "Modrinth",
+					"slug": "nuit",
+					"description": "Custom skyboxes"
+				},
+				{
+					"name": "Nuit Interop",
+					"provider": "Modrinth",
+					"slug": "nuit-interop",
+					"description": "Allows using Optifine skybox resource packs with Nuit"
+				},
+				{
+					"name": "Dark Loading Screen",
+					"provider": "Modrinth",
+					"slug": "dark-loading-screen",
+					"description": "Makes the loading screen darker"
+				}
+			]
+		},
+		{
+			"name": "Masa-like",
+			"mod_data": [
+				{
+					"name": "Tweakeroo",
+					"provider": "Modrinth",
+					"slug": "tweakeroo",
+					"description": "Adds a whole bunch of client-side \"tweaks\" to the game"
+				},
+				{
+					"name": "TweakerMore",
+					"provider": "Modrinth",
+					"slug": "tweakermore",
+					"description": "Adds even more client-side tweaks to the game"
+				},
+				{
+					"name": "Litematica",
+					"provider": "Modrinth",
+					"slug": "litematica",
+					"description": "A client-side schematic mod with extra features for creative mode work"
+				},
+				{
+					"name": "Litemoretica",
+					"provider": "Modrinth",
+					"slug": "litemoretica",
+					"description": "Adds features and fixes to Litematica"
+				},
+				{
+					"name": "Syncmatica",
+					"provider": "Modrinth",
+					"slug": "syncmatica",
+					"description": "Enables sharing litematic placements with other players"
+				},
+				{
+					"name": "MiniHUD",
+					"provider": "Modrinth",
+					"slug": "minihud",
+					"description": "A \"mini F3\" HUD mod, also with various overlays like light level, spawn chunks, slime chunks etc."
+				},
+				{
+					"name": "Item Scroller",
+					"provider": "Modrinth",
+					"slug": "item-scroller",
+					"description": "Adds many shortcuts to move items more easily and craft faster in inventory screens"
+				},
+				{
+					"name": "Masa Gadget",
+					"provider": "Modrinth",
+					"slug": "masa-gadget",
+					"description": "Additional features for Masa's mods"
+				},
+				{
+					"name": "MasaAdditions",
+					"provider": "Modrinth",
+					"slug": "masaadditions",
+					"description": "Addon mod for Tweakeroo, MiniHUD and Litematica"
+				}
+			]
+		},
+		{
+			"name": "Utility",
+			"mod_data": [
+				{
+					"name": "Mod Menu",
+					"provider": "Modrinth",
+					"slug": "modmenu",
+					"description": "Adds a mod menu to view the list of mods you have installed"
+				},
+				{
+					"name": "ClientCommands",
+					"provider": "Modrinth",
+					"slug": "client-commands",
+					"description": "Adds lots of useful client-side commands"
+				},
+				{
+					"name": "EssentialClient",
+					"provider": "Modrinth",
+					"slug": "essentialclient",
+					"description": "Adds many utilities and provides a GUI to modify carpet rules"
+				},
+				{
+					"name": "Axiom",
+					"provider": "Modrinth",
+					"slug": "axiom",
+					"description": "An all-in-one tool for Minecraft editing"
+				},
+				{
+					"name": "WorldEdit",
+					"provider": "Modrinth",
+					"slug": "worldedit",
+					"description": "A tool to make building a lot faster"
+				},
+				{
+					"name": "WorldEdit CUI",
+					"provider": "Modrinth",
+					"slug": "worldedit-cui",
+					"description": "Adds visual outlines for WorldEdit areas",
+					"notes": ["In versions 1.20.5-1.21.4 <https://modrinth.com/mod/wecuifix> must also be installed "]
+				},
+				{
+					"name": "Redstone Multimeter",
+					"provider": "Modrinth",
+					"slug": "redstone-multimeter",
+					"description": "An intuitive redstone debugging tool"
+				},
+				{
+					"name": "Flashback",
+					"provider": "Modrinth",
+					"slug": "flashback",
+					"description": "Allows recording gameplay and playing it back later"
+				},
+				{
+					"name": "Isometric Renders",
+					"provider": "Modrinth",
+					"slug": "isometric-renders",
+					"description": "Allows the creation of high-resolution isometric screenshots of game objects"
+				},
+				{
+					"name": "Pick Block Pro",
+					"provider": "Modrinth",
+					"slug": "pick-block-pro",
+					"description": "An advanced client-side Block, Entity, NBT, Tool and ID picker"
+				},
+				{
+					"name": "Pistorder",
+					"provider": "Modrinth",
+					"slug": "pistorder",
+					"description": "Visually shows the block movement order of a piston"
+				},
+				{
+					"name": "G4mespeed",
+					"provider": "Modrinth",
+					"slug": "g4mespeed",
+					"description": "Utility mod that improves the reliability and experience of changing tick rate, and adds many quality of life features"
+				},
+				{
+					"name": "Inv View",
+					"provider": "Modrinth",
+					"slug": "invview",
+					"description": "Allows opening and manipulating the inventories and ender chests of online and offline players"
+				},
+				{
+					"name": "Chunk Debug",
+					"provider": "Modrinth",
+					"slug": "chunk-debug",
+					"description": "Adds a map with information about the currently loaded chunks"
+				},
+				{
+					"name": "CommandKeys",
+					"provider": "Modrinth",
+					"slug": "commandkeys",
+					"description": "A powerful command macro mod"
+				},
+				{
+					"name": "Technical Utilities",
+					"provider": "Modrinth",
+					"slug": "techutils",
+					"description": "Provides client-side tweaks for Litematica, WorldEdit and other small utilities"
+				},
+				{
+					"name": "Spark",
+					"provider": "Modrinth",
+					"slug": "spark",
+					"description": "A performance profiler for Minecraft clients, servers and proxies"
+				}
+			]
+		},
+		{
+			"name": "Quality of Life",
+			"mod_data": [
+				{
+					"name": "ViaFabricPlus",
+					"provider": "Modrinth",
+					"slug": "viafabricplus",
+					"description": "Allows connecting to every Minecraft server version"
+				},
+				{
+					"name": "VoxelMap",
+					"provider": "Modrinth",
+					"slug": "voxelmap-updated",
+					"description": "A minimap and worldmap mod"
+				},
+				{
+					"name": "Auth Me",
+					"provider": "Modrinth",
+					"slug": "auth-me",
+					"description": "Makes it possible to authenticate yourself and re-validate your session without having to close the game"
+				},
+				{
+					"name": "Zoomify",
+					"provider": "Modrinth",
+					"slug": "zoomify",
+					"description": "A simple customisable zoom mod"
+				},
+				{
+					"name": "Twitch Chat Bridge",
+					"provider": "Modrinth",
+					"slug": "twitch-chat",
+					"description": "Allows linking a Twitch channel's chat to your Minecraft chatbox"
+				},
+				{
+					"name": "No Chat Reports",
+					"provider": "Modrinth",
+					"slug": "no-chat-reports",
+					"description": "Makes chat unreportable (where possible)"
+				},
+				{
+					"name": "Organizable Play Screens",
+					"provider": "Modrinth",
+					"slug": "organizable-play-screens",
+					"description": "Allows organising worlds and servers with folders in the play screens"
+				},
+				{
+					"name": "Recursive Resources",
+					"provider": "Modrinth",
+					"slug": "recursiveresources",
+					"description": "Enhances the Resource Pack menu with folder support"
+				},
+				{
+					"name": "FastQuit",
+					"provider": "Modrinth",
+					"slug": "fastquit",
+					"description": "Makes it possible to return to the title screen early while a world is still saving in the background"
+				},
+				{
+					"name": "ClearDespawn Reworked",
+					"provider": "Modrinth",
+					"slug": "clear-despawn-reworked",
+					"description": "Makes items blink when they are about to despawn"
+				},
+				{
+					"name": "Paginated Advancements",
+					"provider": "Modrinth",
+					"slug": "paginatedadvancements",
+					"description": "Implements a better advancements screen"
+				},
+				{
+					"name": "Too Many Shortcuts",
+					"provider": "Modrinth",
+					"slug": "too-many-shortcuts",
+					"description": "Improves keys and controls setup by providing modifier keys and enabling multi-functional keys"
+				},
+				{
+					"name": "NBT Autocomplete",
+					"provider": "Modrinth",
+					"slug": "nbt-autocomplete",
+					"description": "Adds suggestions for NBT tags in commands"
+				},
+				{
+					"name": "Compact Chat",
+					"provider": "Modrinth",
+					"slug": "compact-chat",
+					"description": "Removes duplicate messages from chat"
+				},
+				{
+					"name": "AppleSkin",
+					"provider": "Modrinth",
+					"slug": "appleskin",
+					"description": "Adds food/hunger-related HUD improvements"
+				},
+				{
+					"name": "Fabrishot",
+					"provider": "Modrinth",
+					"slug": "fabrishot",
+					"description": "Allows taking high-resolution screenshots"
+				},
+				{
+					"name": "Sound Controller",
+					"provider": "Modrinth",
+					"slug": "sound-controller",
+					"description": "Provides complete control over the volume of every sound in the game"
+				},
+				{
+					"name": "Map In Slot",
+					"provider": "Modrinth",
+					"slug": "map-in-slot",
+					"description": "Makes maps render in inventory/hotbar slots"
+				},
+				{
+					"name": "Respackopts",
+					"provider": "Modrinth",
+					"slug": "respackopts",
+					"description": "Adds config menus for resource packs"
+				},
+				{
+					"name": "Cubes Without Borders",
+					"provider": "Modrinth",
+					"slug": "cubes-without-borders",
+					"description": "Allows playing Minecraft in a borderless fullscreen window"
+				},
+				{
+					"name": "Language Reload",
+					"provider": "Modrinth",
+					"slug": "language-reload",
+					"description": "Reduces load times and adds fallbacks for languages"
+				},
+				{
+					"name": "Better Suggestions",
+					"provider": "Modrinth",
+					"slug": "better-suggestions",
+					"description": "Makes command suggestions more useful"
+				},
+				{
+					"name": "Suggestion Tweaker",
+					"provider": "Modrinth",
+					"slug": "suggestion-tweaker",
+					"description": "Improves the way suggestions are filtered and sorted when writing a command"
+				},
+				{
+					"name": "Disable Custom Worlds Advice",
+					"provider": "Modrinth",
+					"slug": "dcwa",
+					"description": "Disables the annoying \"Experimental Features\" advice"
+				},
+				{
+					"name": "MixinTrace",
+					"provider": "Modrinth",
+					"slug": "mixintrace",
+					"description": "Adds a list of mixins to classes in the stack trace of crash reports"
+				}
+			]
+		},
+		{
+			"name": "Fixes",
+			"mod_data": [
+				{
+					"name": "Packet Fixer",
+					"provider": "Modrinth",
+					"slug": "packet-fixer",
+					"description": "Fixes various problems with packets, nbt, and timeouts"
+				},
+				{
+					"name": "Model Gap Fix",
+					"provider": "Modrinth",
+					"slug": "modelfix",
+					"description": "Fixes gaps in block models and item models"
+				},
+				{
+					"name": "ToolTipFix",
+					"provider": "Modrinth",
+					"slug": "tooltipfix",
+					"description": "Stops tooltips that are too large to fit on the screen from running off the screen"
+				},
+				{
+					"name": "FastOpenLinksAndFolders",
+					"provider": "Modrinth",
+					"slug": "fastopenlinksandfolders",
+					"description": "Prevents the game from blocking when opening a chat link, a screenshot or the resourcepacks/datapacks folders"
+				}
+			]
+		}
+	]
+}
