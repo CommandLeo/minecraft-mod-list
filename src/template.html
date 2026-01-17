@@ -9,7 +9,6 @@
     <meta property="og:title" content="CommandLeo Mod List" />
     <meta property="og:description" content="A curated Minecraft mod list" />
     <meta property="og:url" content="https://commandleo.github.io/minecraft-mod-list/" />
-    <meta property="og:site_name" content="CommandLeo Mod List" />
     <meta name="twitter:title" content="CommandLeo Mod List" />
     <meta name="twitter:description" content="A curated Minecraft mod list by CommandLeo" />
 
@@ -89,6 +88,7 @@
         h2 {
         border-bottom: 1px solid var(--border);
         padding-bottom: 0.3em;
+        position: relative;
         }
 
         a {
@@ -98,6 +98,18 @@
 
         a:hover {
         text-decoration: underline;
+        }
+
+        .headerlink {
+        color: var(--muted);
+        position: absolute;
+        left: -15px;
+        opacity: 0;
+        }
+
+        h1:hover .headerlink,
+        h2:hover .headerlink {
+        opacity: 1;
         }
 
         .table-wrap {
@@ -147,7 +159,7 @@
   </head>
   <body>
     <header>
-      <div class="title">CommandLeo Mod List</div>
+      <div class="title"><a href="https://github.com/CommandLeo/minecraft-mod-list">CommandLeo Mod List</a></div>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle color theme">Toggle Theme</button>
     </header>
     <main>{{content}}</main>

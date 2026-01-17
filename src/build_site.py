@@ -41,7 +41,7 @@ def main():
     with open('template.html', 'r', encoding='utf-8') as f:
         template = f.read()
 
-    md = markdown.Markdown(extensions=['extra', TableWrapExtension()])
+    md = markdown.Markdown(extensions=['extra', 'toc', TableWrapExtension()], extension_configs={'toc': {'permalink': True, 'permalink_leading': True}})
     html_content = md.convert(md_content)
 
     full_html = template.replace('{{content}}', html_content)
