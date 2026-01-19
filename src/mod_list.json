@@ -127,7 +127,8 @@
 					"name": "Enhanced Block Entities",
 					"provider": "Modrinth",
 					"slug": "ebe",
-					"description": "Reduces block entity FPS lag and improves their visuals"
+					"description": "Reduces block entity FPS lag and improves their visuals",
+					"notes": ["In versions 1.21.6+ use <https://modrinth.com/mod/better-block-entities> instead"]
 				},
 				{
 					"name": "EntityCulling",

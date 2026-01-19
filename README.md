@@ -31,7 +31,7 @@ This is a list of all the mods I use when playing Minecraft.
 |---|---|---|---
 |<img src="https://cdn.modrinth.com/data/gvQqBUqZ/bcc8686c13af0143adf4285d741256af824f70b7_96.webp" height=32 width=32>|Lithium|[Modrinth](https://modrinth.com/mod/gvQqBUqZ)|Improves **server-side** performance without affecting vanilla game logic
 |<img src="https://cdn.modrinth.com/data/AANobbMI/295862f4724dc3f78df3447ad6072b2dcd3ef0c9_96.webp" height=32 width=32>|Sodium|[Modrinth](https://modrinth.com/mod/AANobbMI)|The fastest rendering optimization mod for Minecraft
-|<img src="https://cdn.modrinth.com/data/OVuFYfre/7313d540ef9514d8680acd5b3feb6a5a079f20fe_96.webp" height=32 width=32>|Enhanced Block Entities|[Modrinth](https://modrinth.com/mod/OVuFYfre)|Reduces block entity FPS lag and improves their visuals
+|<img src="https://cdn.modrinth.com/data/OVuFYfre/7313d540ef9514d8680acd5b3feb6a5a079f20fe_96.webp" height=32 width=32>|Enhanced Block Entities[^1]|[Modrinth](https://modrinth.com/mod/OVuFYfre)|Reduces block entity FPS lag and improves their visuals
 |<img src="https://cdn.modrinth.com/data/NNAgCjsB/7873452d6cede4daed12da3d7d8c193ab88b4fd6_96.webp" height=32 width=32>|EntityCulling|[Modrinth](https://modrinth.com/mod/NNAgCjsB)|Hides entities and block entities that are not visible
 |<img src="https://cdn.modrinth.com/data/51shyZVL/c51b07193b56e952269ef50101d12aecba2b4747_96.webp" height=32 width=32>|More Culling|[Modrinth](https://modrinth.com/mod/51shyZVL)|Changes how multiple types of culling are handled to improve performance
 |<img src="https://cdn.modrinth.com/data/RSeLon5O/147110a6a4457b2f287f68fc626771f0f8ef2cde_96.webp" height=32 width=32>|Particle Core|[Modrinth](https://modrinth.com/mod/RSeLon5O)|Optimises particle rendering
@@ -78,7 +78,7 @@ This is a list of all the mods I use when playing Minecraft.
 |<img src="https://cdn.modrinth.com/data/sH0dfrKf/7114e64647b1a642eeec7fdafb0b2a92016cdcce_96.webp" height=32 width=32>|EssentialClient|[Modrinth](https://modrinth.com/mod/sH0dfrKf)|Adds many utilities and provides a GUI to modify carpet rules
 |<img src="https://cdn.modrinth.com/data/N6n5dqoA/dd175669d5ac228dc00453d13528ad26c1f056ac.png" height=32 width=32>|Axiom|[Modrinth](https://modrinth.com/mod/N6n5dqoA)|An all-in-one tool for Minecraft editing
 |<img src="https://cdn.modrinth.com/data/1u6JkXh5/30698991048ced77e60c4e8284007d3782f2e6a3_96.webp" height=32 width=32>|WorldEdit|[Modrinth](https://modrinth.com/mod/1u6JkXh5)|A tool to make building a lot faster
-|<img src="https://cdn.modrinth.com/data/NSLJJooQ/ed6eaf24fa5a8d1ed4431f57c27fe5cde9f348f2_96.webp" height=32 width=32>|WorldEdit CUI[^1]|[Modrinth](https://modrinth.com/mod/NSLJJooQ)|Adds visual outlines for WorldEdit areas
+|<img src="https://cdn.modrinth.com/data/NSLJJooQ/ed6eaf24fa5a8d1ed4431f57c27fe5cde9f348f2_96.webp" height=32 width=32>|WorldEdit CUI[^2]|[Modrinth](https://modrinth.com/mod/NSLJJooQ)|Adds visual outlines for WorldEdit areas
 |<img src="https://cdn.modrinth.com/data/X6YTb3G1/f2b3de45e4b3c9274da0a64f6eecb2d2afe0cc9a_96.webp" height=32 width=32>|Redstone Multimeter|[Modrinth](https://modrinth.com/mod/X6YTb3G1)|An intuitive redstone debugging tool
 |<img src="https://cdn.modrinth.com/data/4das1Fjq/e81c66aacf2e12c09a95e4f971ea5e2b9f608317_96.webp" height=32 width=32>|Flashback|[Modrinth](https://modrinth.com/mod/4das1Fjq)|Allows recording gameplay and playing it back later
 |<img src="https://cdn.modrinth.com/data/M0aimenU/d7abfbdad0608fffe481946dfd40a9ce73e850c7_96.webp" height=32 width=32>|Isometric Renders|[Modrinth](https://modrinth.com/mod/M0aimenU)|Allows the creation of high-resolution isometric screenshots of game objects
@@ -129,4 +129,5 @@ This is a list of all the mods I use when playing Minecraft.
 |<img src="https://cdn.modrinth.com/data/d51fN9ny/icon.png" height=32 width=32>|FastOpenLinksAndFolders|[Modrinth](https://modrinth.com/mod/d51fN9ny)|Prevents the game from blocking when opening a chat link, a screenshot or the resourcepacks/datapacks folders
 
 
-[^1]: In versions 1.20.5-1.21.4 <https://modrinth.com/mod/wecuifix> must also be installed 
+[^1]: In versions 1.21.6+ use <https://modrinth.com/mod/better-block-entities> instead
+[^2]: In versions 1.20.5-1.21.4 <https://modrinth.com/mod/wecuifix> must also be installed 
